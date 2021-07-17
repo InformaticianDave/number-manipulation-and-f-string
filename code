@@ -1,0 +1,29 @@
+#keeps printing out to almost every decimal
+print(8 / 3)
+#by using the int function, you basically turn it into a whole number
+print(int(8 / 3))
+#by using the round function, with the '2' at the end you basically round it by '2' decimal places.
+print(round(8 / 3, 2))
+#by using the '//' or floor division, basically it becomes an integer,so a whole number chopping off all the numbers after the decimal in place.
+print(8 // 3)
+#if you check the data type, it's an integer
+print(type(8 // 3))
+#Another thing you can do is to continue performing calculations on a variable. So for example, I could do 4 / 2, which is going to be equal to 2. But then if I want to divide it by the 2 again, I could actually say result /= 2. And when I now print results, I'll actually get 1 because it's 4 / 2 then divided by 2 again.
+result = 4 / 2
+result /=2
+print(result)
+#If you're keeping track of the user's score, so you could have score = 0 to begin with and every single time in your code say a user scores a point, then you can get hold of this score variable again and instead of saying score now equals the previous value of score plus one, you can simply use this shorthand, +=, so +=1. And now when we print score, you'll see that it's actually equal to 1. So instead of using +=, you can use -=, which just takes the previous version of score and removes 1 from it.
+score = 0
+  #User scores a point
+score += 10
+score += 10
+score -= 4
+score *= 2
+score /= 2
+print(score)
+#ez way to turn any data types to another type; by using something called f-string
+red = 0
+height = 1.8
+isWinning = True
+
+print(f"The red team score is {red}, The red team's height is {height}, The team is Winning {isWinning}")
